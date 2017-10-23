@@ -24,7 +24,7 @@ Vim is my favorite editor. Here's the basics, just what you need to know to use 
 `x` - deletes current char  
 `X` - backspace chars  
 `dd` - deletes line  
-`D` - delete to end of line
+`D` or `d$` - delete to end of line  
 
 ## Insert mode
 `i` - start inserting  
@@ -35,7 +35,9 @@ Vim is my favorite editor. Here's the basics, just what you need to know to use 
 
 ## Replace mode
 `s` - replace current char, and insert  
-`S` - replace current line, and insert  
+`cw` - replace current word, and insert  
+`S` or `cc` - replace current line, and insert  
+`C` - replace to end of line, and insert  
 `r` - replace one char  
 `R` - replace all chars  
 
@@ -44,14 +46,8 @@ Vim is my favorite editor. Here's the basics, just what you need to know to use 
 `P` - paste above line  
 `yy` - copy a line  
 `yw` - copy a word 
- 
-## Cut
-`cc` - cut a line  
-`cw` - cut a word  
-`C` - cuts to end of line
 
 ## Visual mode
 `v` - begin visual block  
 `V` - select full line  
 `<CTRL> v` - begin a block  
-
